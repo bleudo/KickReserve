@@ -1,35 +1,49 @@
-node_modules/
-# Archivos de construcción
-/build
-/dist
+# Dependencies
+/node_modules
+/client/node_modules
+/server/node_modules
 
-# Archivos de entorno
+# Build files
+/client/build
+/server/build
+
+# Environment files
 .env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
+/client/.env*
+/server/.env*
 
 # Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Archivos del sistema operativo
+# Operating system files
 .DS_Store
 Thumbs.db
 
-# Archivos de IDE/editores
+# IDE/editor files
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# Archivos de caché
+# Cache files
 .cache/
 
-# Archivos de cobertura de pruebas
+# Test coverage files
 /coverage
 
-# Archivos temporales
+# Temporary files
 /tmp
+
+# Local configuration files
+*.local
+
+# Backup files
+*.bak
+*.backup
+*~
